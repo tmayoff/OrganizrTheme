@@ -1,5 +1,5 @@
 # A simple clean Organizr theme
 
-![Login page](http://github.com/tmayoff/OrganizrCleanTheme/blob/master/docs/images/Login.png?raw=true)
+![Login page](https://raw.githubusercontent.com/tmayoff/OrganizrCleanTheme/master/docs/images/Login.png)
 
-![Homepage](http://github.com/tmayoff/OrganizrCleanTheme/blob/master/docs/images/Homepage.png?raw=true)
+![Homepage](https://raw.githubusercontent.com/tmayoff/OrganizrCleanTheme/master/docs/images/Homepage.png)
