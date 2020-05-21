@@ -1,0 +1,85 @@
+.login-area:not(.hidden) + #page-wrapper {
+    display: none;
+}
+
+.login-register {
+	background: transparent !important;
+	
+	.panel {
+		background: transparent;
+	}
+
+	.login-box {
+        background: transparent;
+        width: 480px;
+        height: initial;
+        right: initial;
+        position: fixed;
+
+        @extend %center;
+    }
+
+	.white-box {
+		margin: 0;
+		padding: 0;
+
+		background-color: white;
+		border-radius: 15px;
+		box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+	}
+
+	form {
+        margin: auto;
+        padding: 30px 0;
+    }
+
+    .form-group {
+        margin: 15px 15px;
+        overflow: visible;
+
+        .col-xs-12,
+        .col-md-12 {
+            padding: 0;
+        }
+
+        &.m-t-40,
+        &.m-b-0 {
+            margin: 15px !important;
+        }
+
+        &.m-b-0 {
+            color: #a8a8ab;
+
+            p {
+                margin: -10px 0 20px;
+            }
+        }
+	}
+	
+	input {
+		background-color: $theme-dark !important;
+		border: none;
+	}
+
+	input:focus {
+		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+
+body[data-active-tab=''] .panel #plex-login-collapse .panel-body {
+    padding: 30px 0 0 0;
+}
+
+.form-material {
+
+    .form-control {
+        border-radius: 5px !important;
+        padding: 12px 7px;
+        transition:  all 0.3s;
+    }
+
+    .form-control:focus {
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+        background-image: none;
+    }
+}

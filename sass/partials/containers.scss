@@ -1,0 +1,43 @@
+html {
+	background: $theme-light;
+}
+
+body {
+	background-color: $theme-light;
+}
+
+#page-wrapper {
+	background-color: $theme-light;
+}
+
+.navbar-header {
+	background: $theme-light;
+
+	span {
+		color: $text-color;
+		font-size: 2.25rem;
+		font-weight: 500;
+	}
+
+	.navbar-top-links li a {
+		color: $text-color !important;
+	}
+}
+
+.panel {
+	.panel-body {
+		background-color: white !important;
+	}
+}
+
+white-box {
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+	&.bg-info {
+		background: transparent !important;
+		padding: 0 0 5px 0 !important;
+		background-color: transparent !important;
+	}
+}

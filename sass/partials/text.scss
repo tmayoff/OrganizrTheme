@@ -1,0 +1,38 @@
+a {
+    color: $text-color;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover,
+    &:focus {
+        color: $text-dark !important;
+        cursor: pointer;
+    }
+
+    &.text-primary {
+        font-weight: 600;
+        user-select: none;
+
+        &:hover {
+            // color: $white;
+        }
+    }
+
+    &.list-group-item {
+        // color: $white70a;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend %header;
+}
+
+i {
+    color: $text-color;
+}
