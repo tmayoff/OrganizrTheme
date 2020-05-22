@@ -14,8 +14,17 @@ h6 {
   font-weight: 700;
   text-transform: uppercase; }
 
+#internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); }
+
+btn {
+  color: #FFF; }
+
+.btn-outline {
+  color: #000; }
+
 a {
-  color: #434343;
+  color: #2cabe3;
   text-decoration: none;
   transition: color 0.2s ease;
   -webkit-tap-highlight-color: transparent; }
@@ -25,9 +34,6 @@ a {
   a.text-primary {
     font-weight: 600;
     user-select: none; }
-
-i {
-  color: #434343; }
 
 .login-area:not(.hidden) + #page-wrapper {
   display: none; }
@@ -135,7 +141,7 @@ white-box {
   background: transparent; }
 
 .fc-widget-header {
-  background: transparent !important;
+  background-color: white !important;
   color: #434343 !important;
   border: none !important; }
 
@@ -186,3 +192,52 @@ td {
   #homepage-items .panel .panel-heading {
     background-color: white !important;
     border: none !important; }
+
+#internal-Settings .sttabs {
+  padding: 15px; }
+  #internal-Settings .sttabs nav {
+    background: transparent;
+    margin: 0 15px; }
+    #internal-Settings .sttabs nav .ul {
+      background-color: white !important; }
+    #internal-Settings .sttabs nav .tab-current a {
+      border-radius: 15px 15px 0px 0px;
+      background-color: white !important;
+      box-shadow: 0px -8px 8px -2px rgba(0, 0, 0, 0.25); }
+  #internal-Settings .sttabs .content-current {
+    background-color: white;
+    border-radius: 15px; }
+
+li.active a {
+  border-radius: 5px;
+  color: #FFF !important; }
+
+#settings-main-tab-editor .panel-heading {
+  border-radius: 15px 15px 0 0;
+  background-color: #EEEEEE;
+  color: #000 !important; }
+
+#settings-main-tab-editor #tabEditorTable .el-overlay-1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 25px; }
+
+#settings-main-tab-editor #tabEditorTable .tabEditor {
+  border-radius: 15px; }
+
+#settings-main-tab-editor #tabEditorTable .ui-sortable-placeholder {
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  visibility: visible !important; }
+
+#settings-main-tab-editor #tabEditorTable .ui-sortable-helper {
+  border-radius: 15px !important; }
+
+#settings-main-tab-editor #tabEditorTable input[type="radio"]:checked + label::before {
+  border-color: #707cd2; }
+
+#settings-main-tab-editor #tabEditorTable .radio label::before {
+  border: 1px solid #EEEEEE !important;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25); }
+
+#settings-main-tab-editor #tabEditorTable .form-control {
+  border-radius: 5px; }

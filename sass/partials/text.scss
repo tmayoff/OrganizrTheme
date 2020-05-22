@@ -1,5 +1,5 @@
 a {
-    color: $text-color;
+    color: #2cabe3;;
     text-decoration: none;
     transition: color 0.2s ease;
     -webkit-tap-highlight-color: transparent;
@@ -31,8 +31,4 @@ h4,
 h5,
 h6 {
     @extend %header;
-}
-
-i {
-    color: $text-color;
 }

@@ -11,7 +11,7 @@
 }
 
 .fc-widget-header {
-	background: transparent !important;
+	background-color: white !important;
 	color: $text-color !important;
 	border: none !important;
 }
@@ -33,9 +33,7 @@ td {
 		background-color: $theme-dark !important;
 		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 	}
-
 	
-
 	.fc-day {
 		background: transparent;
 	}
