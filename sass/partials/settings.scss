@@ -33,10 +33,16 @@ li.active a {
 	color: $text-light !important;
 }
 
-// Tab editor
-#settings-main-tab-editor {
+// Common
+#settings-main-tab-editor,
+#settings-customize-appearance,
+#settings-main-user-management,
+#settings-main-plugins,
+#settings-main-system-settings {
 	
 	.panel-heading {
+		margin-bottom: 10px;
+
 		border-radius: 15px 15px 0 0;
 
 		background-color: $theme-dark;
@@ -44,45 +50,69 @@ li.active a {
 		color: $text-dark !important;
 	}
 
+	.customtab .active a{
+		background: #2cabe3;
+		border: none;
+	}
+}
 
-	#tabEditorTable {
+// Plugins
+#settings-main-plugins {
+
+	.el-card-avatar {
+		border-radius: 15px;
+	}
+}
+
+// Customize Appearance
+#settings-customize-appearance {
 	
+}
 
+// Image manager
+#settings-image-manager-list {
+	.white-box {
 		
-
-		.el-overlay-1 {
-			width: 35px;
-			height: 35px;
-			border-radius: 25px;
-		}
-
-		.tabEditor {
-			border-radius: 15px;
-		}
-
-		.ui-sortable-placeholder {
-			box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
-			visibility: visible !important;
-		}
-
-		.ui-sortable-helper {
-			border-radius: 15px !important;
-			@extend %box-shadow
-		}
-
-
-		input[type="radio"]:checked + label::before {
-			border-color: #707cd2;
-		}
-
-		.radio label::before {
-			border: 1px solid $theme-dark !important;
-			box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
-		}
-
-		.form-control {
+		.el-overlay {
 			border-radius: 5px;
 		}
-
 	}
+}
+
+// Tab Editor
+#settings-main-tab-editor #tabEditorTable {
+	.el-overlay-1 {
+		width: 35px;
+		height: 35px;
+		border-radius: 25px;
+	}
+
+	.tabEditor {
+		border-radius: 15px;
+	}
+
+	.ui-sortable-placeholder {
+		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+		visibility: visible !important;
+	}
+
+	.ui-sortable-helper {
+		border-radius: 15px !important;
+		@extend %box-shadow
+	}
+
+
+	input[type="radio"]:checked + label::before {
+		border-color: #707cd2;
+	}
+
+	.radio label::before {
+		border: 1px solid $theme-dark !important;
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
+	}
+
+	.form-control {
+		border-radius: 5px;
+	}
+
 }

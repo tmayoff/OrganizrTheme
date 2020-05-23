@@ -3,23 +3,28 @@
 }
 
 .login-register {
-	background: transparent !important;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 	
 	.panel {
 		background: transparent;
 	}
 
 	.login-box {
+        position: relative;
         background: transparent;
-        width: 480px;
-        height: initial;
-        right: initial;
-        position: fixed;
+    }
 
-        @extend %center;
+    .login-sidebar {
+        height: auto;
+        margin: auto !important;
     }
 
 	.white-box {
+        justify-self: center;
 		margin: 0;
 		padding: 0;
 

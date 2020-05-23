@@ -1,0 +1,73 @@
+.iziToast {
+	border: none !important;
+	border-radius: 15px;
+	@extend %box-shadow;
+}
+
+.iziToast.info-notify {
+	background-color: $bg-info !important;
+
+	.iziToast-body {
+
+		.iziToast-texts .iziToast-title,.iziToast-message {
+			color: $text-dark;
+		}
+
+		.iziToast-icon {
+			color: $text-dark;
+		}
+	}
+	
+	.iziToast-progressbar div {
+		background: $bg-info-dark;
+	}
+}
+
+.iziToast.warning-notify {
+	background-color: $bg-warning !important;
+
+	.iziToast-body {
+
+		.iziToast-texts .iziToast-title,.iziToast-message {
+			color: $text-dark;
+		}
+
+		.iziToast-icon {
+			color: $text-dark;
+		}
+	}
+	
+	.iziToast-progressbar div {
+		background: $bg-warning-dark;
+	}
+}
+
+.iziToast.success-notify {
+	background-color: $bg-success !important;
+
+	.iziToast-body {
+
+		.iziToast-texts .iziToast-title,.iziToast-message {
+			color: $text-dark;
+		}
+
+		.iziToast-icon {
+			color: $text-dark;
+		}
+	}
+	
+	.iziToast-progressbar div {
+		background: $bg-success-dark;
+	}
+}
+
+.iziToast-progressbar {
+	background: transparent;
+	padding: 0;
+	
+
+	div {
+		height: 10px !important;
+		border-radius: 15px !important;
+	}
+}
