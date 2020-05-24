@@ -13,7 +13,10 @@ h6, #homepage-items h1,
   font-weight: 700;
   text-transform: uppercase; }
 
-.dropdown-user, #homepage-items .el-element-overlay, #homepage-items .white-box, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
+.dropdown-user, #homepage-items .panel,
+#homepage-items .white-box,
+#homepage-items .el-element-overlay,
+#homepage-items #allSpeedtest, #homepage-items .card .card-body, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); }
 
 btn {
@@ -206,27 +209,34 @@ td {
 .fc-month-view .fc-event:hover {
   color: #000; }
 
-#homepage-items h1,
-#homepage-items h2,
-#homepage-items h3,
-#homepage-items h4,
-#homepage-items h5,
-#homepage-items h6 {
-  color: #FFF; }
+#homepage-items .panel,
+#homepage-items .white-box,
+#homepage-items .el-element-overlay,
+#homepage-items #allSpeedtest {
+  border-radius: 15px;
+  background-color: white; }
 
-#homepage-items .card-body p {
-  color: #FFF; }
+#homepage-items .card {
+  border-radius: 8px; }
+  #homepage-items .card .card-body {
+    border-radius: 8px;
+    border-radius: 8px; }
+    #homepage-items .card .card-body h1,
+    #homepage-items .card .card-body h2,
+    #homepage-items .card .card-body h3,
+    #homepage-items .card .card-body h4,
+    #homepage-items .card .card-body h5,
+    #homepage-items .card .card-body h6 {
+      color: #FFF; }
+
+#homepage-items #allSpeedtest {
+  padding: 10px; }
 
 #homepage-items i {
   color: #FFF; }
 
 #homepage-items .el-element-overlay {
-  margin: 20px 0;
-  background-color: white;
-  border-radius: 15px; }
-
-#homepage-items .card {
-  border-radius: 5px; }
+  margin: 20px 0; }
 
 #homepage-items .owl-item .item {
   border-radius: 15px; }
@@ -238,9 +248,6 @@ td {
   padding: 4px;
   border-radius: 0px 0px 15px 15px !important; }
 
-#homepage-items .white-box {
-  border-radius: 15px; }
-
 #homepage-items .mailbox-widget {
   background-color: #EEEEEE !important;
   border-radius: 15px 15px 0 0; }
@@ -248,12 +255,9 @@ td {
     background-color: #2cabe3;
     border-radius: 15px 15px 0 0; }
     #homepage-items .mailbox-widget .customtab li:hover li.active a {
-      color: #FFF !important; }
+      color: #000 !important; }
 
 #homepage-items .panel {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
   padding: 10px; }
   #homepage-items .panel .panel-heading {
     background-color: white !important;
