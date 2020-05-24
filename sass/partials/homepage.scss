@@ -3,6 +3,19 @@
 		color: $text-light
 	}
 
+	.el-element-overlay {
+		margin: 20px 0;
+
+		background-color: white;
+		border-radius: 15px;
+		@extend %box-shadow;
+	}
+
+	.card {
+		// @extend %box-shadow-small;
+		border-radius: 5px;
+	}
+
 	.owl-item .item {
 		border-radius: 15px;
 	}
@@ -14,6 +27,30 @@
 	.recent-title {
 		padding: 4px;
 		border-radius: 0px 0px 15px 15px !important;
+	}
+
+	.white-box {
+		@extend %box-shadow;
+		border-radius: 15px;
+	}
+
+	// qBittorrent
+	.mailbox-widget {
+		background-color: $theme-dark !important;
+		border-radius: 15px 15px 0 0;
+
+		.customtab li:hover {
+			background-color: $blue;
+			border-radius: 15px 15px 0 0;
+
+			li.active a {
+				color: $text-light !important;
+			}
+		}
+
+		.customtab li.active a {
+			color: $text-dark !important;
+		}
 	}
 	
 	.panel {

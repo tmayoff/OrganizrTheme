@@ -9,7 +9,7 @@ h6 {
   font-weight: 700;
   text-transform: uppercase; }
 
-#internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, .iziToast {
+#homepage-items .el-element-overlay, #homepage-items .white-box, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, .iziToast {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); }
 
 btn {
@@ -95,6 +95,9 @@ html {
 body {
   background-color: #F3F9FF; }
 
+.bg-org-alt {
+  background-color: white; }
+
 #page-wrapper {
   background-color: #F3F9FF; }
 
@@ -125,6 +128,9 @@ white-box {
     background: transparent; }
     .sidebar .sidebar-head span {
       color: #434343 !important; }
+
+.sidebar-nav #side-menu li a {
+  color: #434343 !important; }
 
 .sidebar-nav #side-menu .fa-fw {
   width: 30px;
@@ -175,6 +181,14 @@ td {
 #homepage-items i {
   color: #FFF; }
 
+#homepage-items .el-element-overlay {
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 15px; }
+
+#homepage-items .card {
+  border-radius: 5px; }
+
 #homepage-items .owl-item .item {
   border-radius: 15px; }
 
@@ -184,6 +198,20 @@ td {
 #homepage-items .recent-title {
   padding: 4px;
   border-radius: 0px 0px 15px 15px !important; }
+
+#homepage-items .white-box {
+  border-radius: 15px; }
+
+#homepage-items .mailbox-widget {
+  background-color: #EEEEEE !important;
+  border-radius: 15px 15px 0 0; }
+  #homepage-items .mailbox-widget .customtab li:hover {
+    background-color: #2cabe3;
+    border-radius: 15px 15px 0 0; }
+    #homepage-items .mailbox-widget .customtab li:hover li.active a {
+      color: #FFF !important; }
+  #homepage-items .mailbox-widget .customtab li.active a {
+    color: #000 !important; }
 
 #homepage-items .panel {
   background-color: white;
