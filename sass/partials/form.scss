@@ -1,0 +1,19 @@
+.form-control[disabled] {
+	background-color: $bg-unavailable !important;
+	color: $text-color;
+}
+
+.form-control {
+	background-color: $theme-dark !important;
+	border: none;
+
+	&:focus {
+		box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+
+select.form-control {
+	background-color: white !important;
+	border: 1px solid grey;
+	border-radius: 5px;
+}

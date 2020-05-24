@@ -6,21 +6,13 @@ a {
 
     &:hover,
     &:focus {
-        color: $text-dark !important;
+        // color: $text-dark !important;
         cursor: pointer;
     }
 
     &.text-primary {
         font-weight: 600;
         user-select: none;
-
-        &:hover {
-            // color: $white;
-        }
-    }
-
-    &.list-group-item {
-        // color: $white70a;
     }
 }
 
@@ -31,6 +23,7 @@ h4,
 h5,
 h6 {
     @extend %header;
+    color: $text-dark;
 }
 
 .text-muted {

@@ -24,9 +24,20 @@ body {
 	}
 }
 
+.bg-org {
+	background-color: $bg-org;
+}
+
 .panel {
+	.panel-heading {
+		background-color: $theme-dark;
+		border-radius: 15px 15px 0 0;
+		color: $text-dark;
+	}
+
 	.panel-body {
 		background-color: white !important;
+		padding-top: 30px;
 	}
 }
 
@@ -39,5 +50,16 @@ white-box {
 		background: transparent !important;
 		padding: 0 0 5px 0 !important;
 		background-color: transparent !important;
+	}
+}
+
+.dropdown-user {
+	border-radius: 15px;
+	@extend %box-shadow;
+
+	.u-text {
+		h4,h3,p {
+			color: $text-dark;
+		}
 	}
 }

@@ -1,4 +1,18 @@
 #homepage-items {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@extend %header;
+		color: $text-light;
+	}
+
+	.card-body p {
+		color: $text-light;
+	}
+
 	i {
 		color: $text-light
 	}
@@ -46,10 +60,6 @@
 			li.active a {
 				color: $text-light !important;
 			}
-		}
-
-		.customtab li.active a {
-			color: $text-dark !important;
 		}
 	}
 	

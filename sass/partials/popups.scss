@@ -1,0 +1,39 @@
+.mfp-content {
+
+	.panel {
+		background: transparent;
+	}
+
+	.panel-heading {
+		a {
+			color: $text-color;
+			&:hover {
+				color: $text-dark;
+			}
+		}
+	}
+
+	.panel-body {
+		border-radius: 0 0 15px 15px;
+	}
+
+	.customTab {
+		li a {
+			color: $text-dark;
+		}
+
+		li.active a {
+			color: $text-dark;
+		}
+	}
+}
+
+.customTab {
+	li a {
+		color: $text-dark;
+	}
+
+	li.active a {
+		color: $text-dark;
+	}
+}

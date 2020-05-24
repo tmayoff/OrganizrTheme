@@ -23,6 +23,25 @@
 	}
 }
 
+.iziToast.error-notify {
+	background-color: $bg-error !important;
+
+	.iziToast-body {
+
+		.iziToast-texts .iziToast-title,.iziToast-message {
+			color: $text-dark;
+		}
+
+		.iziToast-icon {
+			color: $text-dark;
+		}
+	}
+	
+	.iziToast-progressbar div {
+		background: $bg-error-dark;
+	}
+}
+
 .iziToast.warning-notify {
 	background-color: $bg-warning !important;
 
