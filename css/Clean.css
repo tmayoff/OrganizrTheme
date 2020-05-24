@@ -152,6 +152,9 @@ white-box {
   color: #434343 !important;
   border: none !important; }
 
+.fc-image i {
+  color: #434343 !important; }
+
 .fc-unthemed .fc-today {
   border: none !important;
   background: white !important; }
