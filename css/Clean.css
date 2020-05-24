@@ -290,13 +290,8 @@ td {
 #settings-main-plugins .customtab .active a,
 #settings-main-system-settings .customtab .active a {
   background: #2cabe3;
-  border: none; }
-  #settings-main-tab-editor .customtab .active a li.active a,
-  #settings-customize-appearance .customtab .active a li.active a,
-  #settings-main-user-management .customtab .active a li.active a,
-  #settings-main-plugins .customtab .active a li.active a,
-  #settings-main-system-settings .customtab .active a li.active a {
-    color: #FFF !important; }
+  border: none;
+  color: #FFF !important; }
 
 li.active a {
   border-radius: 5px; }
