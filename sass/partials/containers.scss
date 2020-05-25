@@ -67,12 +67,12 @@ white-box {
 }
 
 .dropdown-user {
-	border-radius: 15px;
+	border-radius: 8px 0px 8px 8px;
 	@extend %box-shadow;
 
 	.u-text {
 		h4,h3,p {
-			color: $text-dark;
+			color: $text-color;
 		}
 	}
 }

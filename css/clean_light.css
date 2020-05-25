@@ -157,9 +157,9 @@ white-box {
     background-color: transparent !important; }
 
 .dropdown-user {
-  border-radius: 15px; }
+  border-radius: 8px 0px 8px 8px; }
   .dropdown-user .u-text h4, .dropdown-user .u-text h3, .dropdown-user .u-text p {
-    color: #000; }
+    color: #434343; }
 
 .table-hover tbody tr:hover {
   background-color: #EEEEEE; }
@@ -476,4 +476,4 @@ select.form-control {
 .navbar-static-top .navbar-top-links li {
   border-radius: 5px; }
   .navbar-static-top .navbar-top-links li a {
-    color: #000 !important; }
+    color: #434343 !important; }
