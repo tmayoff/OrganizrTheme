@@ -10,10 +10,21 @@ body {
 	background-color: $bg-org-alt;
 }
 
+.bg-title {
+	background-color: $bg-card;
+}
+
 #page-wrapper {
 	background-color: $theme-light;
 }
 
+.content-wrap {
+	background: transparent !important;
+}
+
+.navbar {
+	background: $theme-light;
+}
 .navbar-header {
 	background: $theme-light;
 
@@ -29,6 +40,8 @@ body {
 }
 
 .panel {
+	background: $bg-card;
+
 	.panel-heading {
 		background-color: $theme-dark;
 		border-radius: 15px 15px 0 0;
@@ -36,7 +49,7 @@ body {
 	}
 
 	.panel-body {
-		background-color: white !important;
+		background-color: $bg-card !important;
 		padding-top: 30px;
 	}
 }

@@ -1,3 +1,7 @@
+label {
+	color: $text-color;
+}
+
 .form-control[disabled] {
 	background-color: $bg-unavailable !important;
 	color: $text-color;

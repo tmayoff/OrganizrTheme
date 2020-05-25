@@ -5,13 +5,13 @@ sass = require('gulp-sass');
 browserSync = require('browser-sync').create();
 browserSyncConfig = {
 	proxy: process.env.ORGANIZR_URL,
-	files: 'css/Clean.css',
+	files: 'css/clean_light.css',
 	serveStatic: ['css'],
 	snippetOptions: {
 		rule: {
 			match: /<link id="theme" href=".*" rel="stylesheet"\s*\/?>/is,
                 fn: snippet =>
-                    `<link href="/Clean.css" rel="stylesheet" type="text/css" />${snippet}`
+                    `<link href="/clean_light.css" rel="stylesheet" type="text/css" />${snippet}`
 		}
 	},
 
