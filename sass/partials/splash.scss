@@ -1,0 +1,21 @@
+#splashScreen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.flexbox {
+		justify-content: center;
+	}
+
+	.mouse {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.fc-event {
+		border-radius: 15px;
+		@extend %box-shadow;
+
+		color: $text-color !important;
+	}
+}

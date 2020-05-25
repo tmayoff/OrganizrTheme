@@ -1,3 +1,25 @@
+#splashScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #splashScreen .flexbox {
+    justify-content: center; }
+  #splashScreen .mouse {
+    margin-left: 20px;
+    margin-right: 20px; }
+  #splashScreen .fc-event {
+    border-radius: 15px;
+    color: #f2f2f2 !important; }
+
+.lock-screen {
+  background: #1d1f26 !important; }
+
+.login-box {
+  background-color: black;
+  border-radius: 15px !important; }
+  .login-box .white-box {
+    border-radius: 15px !important; }
+
 h1,
 h2,
 h3,
@@ -13,7 +35,7 @@ h6, #homepage-items h1,
   font-weight: 700;
   text-transform: uppercase; }
 
-.dropdown-user, #homepage-items .panel,
+#splashScreen .fc-event, .login-box, .dropdown-user, #homepage-items .panel,
 #homepage-items .white-box,
 #homepage-items .el-element-overlay,
 #homepage-items #allSpeedtest, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
@@ -389,36 +411,36 @@ li.active a {
 .iziToast.info-notify {
   background-color: #0ce5f4 !important; }
   .iziToast.info-notify .iziToast-body .iziToast-texts .iziToast-title, .iziToast.info-notify .iziToast-body .iziToast-message {
-    color: #848484; }
+    color: #000; }
   .iziToast.info-notify .iziToast-body .iziToast-icon {
-    color: #848484; }
+    color: #000; }
   .iziToast.info-notify .iziToast-progressbar div {
     background: #0cc6d3; }
 
 .iziToast.error-notify {
   background-color: #f41f3f !important; }
   .iziToast.error-notify .iziToast-body .iziToast-texts .iziToast-title, .iziToast.error-notify .iziToast-body .iziToast-message {
-    color: #848484; }
+    color: #000; }
   .iziToast.error-notify .iziToast-body .iziToast-icon {
-    color: #848484; }
+    color: #000; }
   .iziToast.error-notify .iziToast-progressbar div {
     background: #db1c39; }
 
 .iziToast.warning-notify {
   background-color: #dee51b !important; }
   .iziToast.warning-notify .iziToast-body .iziToast-texts .iziToast-title, .iziToast.warning-notify .iziToast-body .iziToast-message {
-    color: #848484; }
+    color: #000; }
   .iziToast.warning-notify .iziToast-body .iziToast-icon {
-    color: #848484; }
+    color: #000; }
   .iziToast.warning-notify .iziToast-progressbar div {
     background: #c9ac1c; }
 
 .iziToast.success-notify {
   background-color: #12e25e !important; }
   .iziToast.success-notify .iziToast-body .iziToast-texts .iziToast-title, .iziToast.success-notify .iziToast-body .iziToast-message {
-    color: #848484; }
+    color: #000; }
   .iziToast.success-notify .iziToast-body .iziToast-icon {
-    color: #848484; }
+    color: #000; }
   .iziToast.success-notify .iziToast-progressbar div {
     background: #12ba50; }
 

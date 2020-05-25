@@ -13,7 +13,7 @@ h6, #homepage-items h1,
   font-weight: 700;
   text-transform: uppercase; }
 
-.dropdown-user, #homepage-items .panel,
+#splashScreen .fc-event, .login-box, .dropdown-user, #homepage-items .panel,
 #homepage-items .white-box,
 #homepage-items .el-element-overlay,
 #homepage-items #allSpeedtest, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
@@ -21,6 +21,28 @@ h6, #homepage-items h1,
 
 #homepage-items .card .card-body {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25); }
+
+#splashScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #splashScreen .flexbox {
+    justify-content: center; }
+  #splashScreen .mouse {
+    margin-left: 20px;
+    margin-right: 20px; }
+  #splashScreen .fc-event {
+    border-radius: 15px;
+    color: #434343 !important; }
+
+.lock-screen {
+  background: #F3F9FF !important; }
+
+.login-box {
+  background-color: white;
+  border-radius: 15px !important; }
+  .login-box .white-box {
+    border-radius: 15px !important; }
 
 btn {
   color: #FFF; }

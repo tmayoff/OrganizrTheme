@@ -1,0 +1,13 @@
+.lock-screen {
+	background: $theme-light !important;
+}
+
+.login-box {
+	background-color: $bg-card;
+	border-radius: 15px !important;
+	@extend %box-shadow;
+
+	.white-box {
+		border-radius: 15px !important;
+	}
+}
