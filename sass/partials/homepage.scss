@@ -25,7 +25,7 @@
 			
 			@include headerColor($text-light);
 			border-radius: 8px;
-			@extend %box-shadow;
+			@extend %inset-box-shadow;
 		}
 	}
 
@@ -42,7 +42,7 @@
 		padding: 10px;
 
 		.speedtest-card {
-			background-color: $theme-dark;
+			background-color: $theme-light;
 			@include headerColor($text-dark);
 			.text-white {
 				color: $text-dark;
@@ -52,7 +52,7 @@
 
 	// Tautulli
 	.homepage-tautulli-card {
-		background-color: $theme-dark;
+		background-color: $theme-light;
 
 		.card-body {
 			background: transparent;			
@@ -64,7 +64,7 @@
 		}
 
 		.poster {
-			border-radius: 5px;
+			border-radius: 8px;
 			filter: drop-shadow(0px 0px 8px $shadow-color);
 		}
 
@@ -96,17 +96,33 @@
 	}
 
 	// qBittorrent
-	.mailbox-widget {
-		background-color: $theme-dark !important;
-		border-radius: 15px 15px 0 0;
-
-		.customtab li:hover {
-			background-color: $blue;
+	#homepageOrderqBittorrent {
+		// Header
+		.mailbox-widget {
+			padding-top: 8px !important;
+			padding-bottom: 8px !important;
+			background-color: $theme-dark !important;
 			border-radius: 15px 15px 0 0;
 
-			li.active a {
-				color: $text-dark !important;
+			.customtab {
+				li {
+					a {
+						border: none !important;
+						color: $text-color !important;
+					}
+
+					&.active {
+						border-radius: 8px;
+					}
+					&:hover {
+						background-color: $theme-light;
+					}
+				}
 			}
+		}
+
+		tr:hover {
+			background-color: $theme-dark !important;
 		}
 	}
 	

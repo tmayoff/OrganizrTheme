@@ -14,6 +14,10 @@
 	box-shadow: 0px 4px 16px $shadow-color;
 }
 
+%inset-box-shadow {
+	box-shadow: inset 0px 0px 10px $shadow-color;
+}
+
 %box-shadow-small {
 	box-shadow: 0px 7px 16px  rgba(0, 0, 0, 0.25);
 }

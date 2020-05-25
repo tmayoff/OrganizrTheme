@@ -4,6 +4,11 @@
 	border-radius: 15px;
 	border: none;
 	padding: 5px;
+
+	td {
+		border-radius: 15px;
+		// border: none !important;
+	}
 }
 
 .fc-toolbar {
@@ -23,12 +28,6 @@
 .fc-unthemed .fc-today {
 	border: none !important;
 	background: $bg-card !important;
-}
-
-td {
-	border-radius: 15px;
-	border: none !important;
-	border-radius: 15px;
 }
 
 .fc-basicWeek-view,

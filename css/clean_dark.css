@@ -16,8 +16,11 @@ h6, #homepage-items h1,
 .dropdown-user, #homepage-items .panel,
 #homepage-items .white-box,
 #homepage-items .el-element-overlay,
-#homepage-items #allSpeedtest, #homepage-items .card .card-body, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
+#homepage-items #allSpeedtest, #internal-Settings .sttabs .content-current, #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper, .iziToast {
   box-shadow: 0px 4px 16px rgba(1, 1, 1, 0.75); }
+
+#homepage-items .card .card-body {
+  box-shadow: inset 0px 0px 10px rgba(1, 1, 1, 0.75); }
 
 btn {
   color: #FFF; }
@@ -161,6 +164,9 @@ white-box {
 .table-hover tbody tr:hover {
   background-color: #141414; }
 
+td {
+  border: none !important; }
+
 .sidebar {
   background-color: black;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
@@ -184,6 +190,8 @@ white-box {
   border-radius: 15px;
   border: none;
   padding: 5px; }
+  .fc td {
+    border-radius: 15px; }
 
 .fc-toolbar {
   background: transparent; }
@@ -199,11 +207,6 @@ white-box {
 .fc-unthemed .fc-today {
   border: none !important;
   background: black !important; }
-
-td {
-  border-radius: 15px;
-  border: none !important;
-  border-radius: 15px; }
 
 .fc-basicWeek-view .fc-state-highlight,
 .fc-month-view .fc-state-highlight {
@@ -251,7 +254,7 @@ td {
 #homepage-items #allSpeedtest {
   padding: 10px; }
   #homepage-items #allSpeedtest .speedtest-card {
-    background-color: #141414; }
+    background-color: #1d1f26; }
     #homepage-items #allSpeedtest .speedtest-card h1,
     #homepage-items #allSpeedtest .speedtest-card h2,
     #homepage-items #allSpeedtest .speedtest-card h3,
@@ -263,13 +266,13 @@ td {
       color: #848484; }
 
 #homepage-items .homepage-tautulli-card {
-  background-color: #141414; }
+  background-color: #1d1f26; }
   #homepage-items .homepage-tautulli-card .card-body {
     background: transparent; }
   #homepage-items .homepage-tautulli-card .bg-img {
     opacity: 0; }
   #homepage-items .homepage-tautulli-card .poster {
-    border-radius: 5px;
+    border-radius: 8px;
     filter: drop-shadow(0px 0px 8px rgba(1, 1, 1, 0.75)); }
   #homepage-items .homepage-tautulli-card .lib-icon {
     filter: drop-shadow(0px 0px 8px rgba(1, 1, 1, 0.75)); }
@@ -290,14 +293,21 @@ td {
   padding: 4px;
   border-radius: 0px 0px 15px 15px !important; }
 
-#homepage-items .mailbox-widget {
+#homepage-items #homepageOrderqBittorrent .mailbox-widget {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
   background-color: #141414 !important;
   border-radius: 15px 15px 0 0; }
-  #homepage-items .mailbox-widget .customtab li:hover {
-    background-color: #2cabe3;
-    border-radius: 15px 15px 0 0; }
-    #homepage-items .mailbox-widget .customtab li:hover li.active a {
-      color: #848484 !important; }
+  #homepage-items #homepageOrderqBittorrent .mailbox-widget .customtab li a {
+    border: none !important;
+    color: #f2f2f2 !important; }
+  #homepage-items #homepageOrderqBittorrent .mailbox-widget .customtab li.active {
+    border-radius: 8px; }
+  #homepage-items #homepageOrderqBittorrent .mailbox-widget .customtab li:hover {
+    background-color: #1d1f26; }
+
+#homepage-items #homepageOrderqBittorrent tr:hover {
+  background-color: #141414 !important; }
 
 #homepage-items .panel {
   padding: 10px; }
