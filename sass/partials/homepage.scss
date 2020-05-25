@@ -28,9 +28,41 @@
 			@extend %box-shadow;
 		}
 	}
+
+	// Netdata
+	.gauge-value {
+		color: $text-light;
+	}
+	.gauge-title {
+		color: $text-color;
+	}
 	
+	// Speedtest
 	#allSpeedtest {
 		padding: 10px;
+	}
+
+	// Tautulli
+	.homepage-tautulli-card {
+		background-color: $theme-dark;
+
+		.card-body {
+			background: transparent;			
+		}
+
+		// hide blured image
+		.bg-img {
+			opacity: 0;
+		}
+
+		.poster {
+			filter: drop-shadow(0px 0px 8px $shadow-color);
+		}
+
+		// Library icons
+		.lib-icon {
+			filter: drop-shadow(0px 0px 8px $shadow-color);
+		}
 	}
 
 	i {

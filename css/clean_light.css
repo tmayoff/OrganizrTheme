@@ -158,6 +158,9 @@ white-box {
   .dropdown-user .u-text h4, .dropdown-user .u-text h3, .dropdown-user .u-text p {
     color: #000; }
 
+.table-hover tbody tr:hover {
+  background-color: #EEEEEE; }
+
 .sidebar {
   background-color: white;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
@@ -239,8 +242,25 @@ td {
     #homepage-items .card .card-body h6 {
       color: #FFF; }
 
+#homepage-items .gauge-value {
+  color: #FFF; }
+
+#homepage-items .gauge-title {
+  color: #434343; }
+
 #homepage-items #allSpeedtest {
   padding: 10px; }
+
+#homepage-items .homepage-tautulli-card {
+  background-color: #EEEEEE; }
+  #homepage-items .homepage-tautulli-card .card-body {
+    background: transparent; }
+  #homepage-items .homepage-tautulli-card .bg-img {
+    opacity: 0; }
+  #homepage-items .homepage-tautulli-card .poster {
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.25)); }
+  #homepage-items .homepage-tautulli-card .lib-icon {
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.25)); }
 
 #homepage-items i {
   color: #FFF; }
@@ -327,7 +347,7 @@ li.active a {
   border-radius: 15px; }
 
 #settings-main-tab-editor #tabEditorTable .ui-sortable-placeholder, #categoryEditorTable .ui-sortable-placeholder {
-  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
   visibility: visible !important; }
 
 #settings-main-tab-editor #tabEditorTable .ui-sortable-helper, #categoryEditorTable .ui-sortable-helper {
@@ -422,13 +442,13 @@ label {
 
 .form-control {
   background-color: #EEEEEE !important;
+  color: #434343 !important;
   border: none; }
   .form-control:focus {
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25); }
 
 select.form-control {
-  background-color: white !important;
-  border: 1px solid grey;
+  background-color: #EEEEEE !important;
   border-radius: 5px; }
 
 .navbar-static-top .navbar-top-links li {

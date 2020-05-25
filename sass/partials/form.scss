@@ -4,11 +4,12 @@ label {
 
 .form-control[disabled] {
 	background-color: $bg-unavailable !important;
-	color: $text-color;
+	color: $text-color ;
 }
 
 .form-control {
 	background-color: $theme-dark !important;
+	color: $text-color !important;
 	border: none;
 
 	&:focus {
@@ -17,7 +18,7 @@ label {
 }
 
 select.form-control {
-	background-color: white !important;
-	border: 1px solid grey;
+	background-color: $theme-dark !important;
+	// border: 1px solid grey;
 	border-radius: 5px;
 }
